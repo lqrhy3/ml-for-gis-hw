@@ -21,7 +21,7 @@ def plot(X, labels):
     scatter = plt.scatter(X[:, 0], X[:, 1], c=labels)
     plt.legend(handles=scatter.legend_elements()[0], labels=legend)
 
-    plt.savefig('results/synthetic_example_result.png')
+    plt.savefig('result/synthetic_example_result.png')
 
 
 if __name__ == '__main__':

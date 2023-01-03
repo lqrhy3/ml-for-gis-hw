@@ -18,7 +18,7 @@ def main():
 
     data['Cluster'] = labels
     map_ = create_map(data)
-    map_.save('results/gis_example_result.html')
+    map_.save('result/gis_example_result.html')
 
 
 def read_data():
